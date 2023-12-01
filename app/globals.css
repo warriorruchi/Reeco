@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body:has(.requires-no-scroll) {
+    overflow: hidden;
+}
